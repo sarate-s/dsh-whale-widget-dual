@@ -13,6 +13,14 @@
     "README.md",
     "PROVENANCE.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarate-s/dsh-whale-widget-dual.git"
+  },
+  "homepage": "https://github.com/sarate-s/dsh-whale-widget-dual#readme",
+  "bugs": {
+    "url": "https://github.com/sarate-s/dsh-whale-widget-dual/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"

@@ -1,5 +1,16 @@
 # dsh-whale-widget-dual
 
+> GitHub：https://github.com/sarate-s/dsh-whale-widget-dual
+
+从 GitHub 安装（DSH 自带 CLI）：
+
+```powershell
+& "$env:LOCALAPPDATA\Programs\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd" `
+    plugin --profile desktop add "github:sarate-s/dsh-whale-widget-dual"
+```
+
+装完完全退出并重新打开 DSH。离线安装见文末「安装」。
+
 把之前的小鲸鱼全功能插件改成 **dsh-pet 式双模式**：
 
 | `display` | 效果 |
