@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DSH Whale Widget Desktop</title>
+  <style>
+    html, body {
+      margin: 0; padding: 0; width: 100%; height: 100%;
+      background: transparent; overflow: hidden;
+    }
+    body { color-scheme: dark; }
+    /* 仅用于让挂件通过“DSH 主聊天界面”自检：不可见、不占布局 */
+    #root { position: absolute; left: -10000px; top: -10000px; width: 1px; height: 1px; overflow: hidden; }
+  </style>
+</head>
+<body>
+  <!-- dsh-whale-widget 只会在检测到 DSH 聊天界面时挂载；这里提供一个不可见的等价锚点 -->
+  <div id="root">
+    <div data-composer-input="true" contenteditable="false" role="textbox" aria-multiline="true"></div>
+  </div>
+  <script>
+    try { window.__DSH_BOOT__ = window.__DSH_BOOT__ || { version: '0.2.1-rc.3', mode: 'desktop-widget' } } catch (e) {}
+  </script>
+  <script src="/dsh-whale/widget.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+﻿{
+  "name": "dsh-whale-widget-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "dsh-whale-widget-dual 内置的桌面桌宠",
+  "main": "src/main.cjs"
+}

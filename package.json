@@ -1,0 +1,22 @@
+{
+  "name": "dsh-whale-widget-dual",
+  "version": "1.0.0",
+  "description": "小鲸鱼双模式（仿 dsh-pet）：同一份 dsh-whale-widget 全功能，web 页面 overlay + desktop Electron 桌宠，由 display 控制。",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "desktop",
+    "icon.png",
+    "cordis.patch.yml",
+    "README.md",
+    "PROVENANCE.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
